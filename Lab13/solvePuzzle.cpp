@@ -15,6 +15,8 @@ int main(int argc, char* argv[]) {
         return -1;
     }
 
+    ////
+
     boardType initialBoard(argv[1]);
     boardType goalBoard("123456780");
 
